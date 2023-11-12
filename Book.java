@@ -48,14 +48,14 @@ public class Book
   public void setAuthor(String a) {
     author = a;
   }
-  
+
   public void adjustRating(int i){
     if (rating + i >0 && rating + i <10){
-      rating += i;  
+      rating += i;
     }
-    
+
   }
-  
+
   public boolean equals(Book b){
     return (b.getTitle() == this.getTitle()) && (b.getAuthor() == this.getAuthor());
     // error -> return (b.getTitle() == this.title()) && (b.getAuthor() == this.author());

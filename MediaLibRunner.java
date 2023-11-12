@@ -40,7 +40,13 @@ public class MediaLibRunner
     newBook2.setTitle("Animal Farm");
     System.out.println(newBook2.equals(newBook));
     */
-    // The above is all code for the first part of 2.5.7, not related to the stuff below
-    
+    // The above is all code for t;he first part of 2.5.7, not related to the stuff below
+    MediaLib myLib = new MediaLib();
+    Book myBook = new Book("A book", "Writer");
+    Movie myMovie = new Movie("A movie",10,100);
+    Movie myMovie2 = new Movie("A movie",10, 100);
+
+    System.out.println(myMovie.equals(myMovie2));
+
   }
 }
