@@ -1,3 +1,5 @@
-PLTW-2.5.7---2.5.9.iml
-out
-
+*.class
+*.iml
+*.DS_Store
+*.idea
+*out
